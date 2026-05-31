@@ -73,7 +73,7 @@ exit:
 
 .data
 socket_error_message:
-	.asciz "socket() Failed"
+	.asciz "socket() Failed\n"
 socket_error_len = .-socket_error_message
 
 struct_sockaddr_in:
