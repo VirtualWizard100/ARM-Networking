@@ -5,8 +5,6 @@
 .equ SOCK_STREAM, 1
 .equ IPPROTO_TCP, 6
 
-.equ PORT, 8080
-
 _start:
 	mov r7, #0xa		@ unlink
 	ldr r0, [sp, #4]
